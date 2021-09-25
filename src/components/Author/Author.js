@@ -13,7 +13,7 @@ const Author = ( props ) => {
                 </div>
                 <div className="col-md-7">
                     <div className="card-body">
-                        <h4 className="card-title text-info fw-bold">{ name }</h4>
+                        <h5 className="card-title text-info fw-bold">{ name }</h5>
                         <p className="card-text text-white"><b>Role:</b> { role }</p>
                         <p className="card-text text-white"><b>Age:</b> { age }</p>
                         <p className="card-text text-white"><b>Country:</b> { country }</p>

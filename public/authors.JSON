@@ -82,12 +82,12 @@
     },
     {
         "id": 110,
-        "name": "Karin Slaughter",
-        "role": "Program Anchor",
-        "age": 42,
-        "country": "Sweden",
-        "salary": 45000,
-        "image": "https://www.ajc.com/resizer/r6fSPs4s6hO49Ix9N62PL0NxLs8=/814x458/cloudfront-us-east-1.images.arcpublishing.com/ajc/PAE7FWKEZZRZYKO26DYVVI36WU.png"
+        "name": "J. K. Rowling",
+        "role": "Chief Speaker",
+        "age": 46,
+        "country": "England",
+        "salary": 85000,
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2020_26/3155921/191219-j-k-rowling-2018-ac-845p.jpg"
     },
     {
         "id": 111,
@@ -122,7 +122,16 @@
         "role": "Chief Speaker",
         "age": 74,
         "country": "Bangladesh",
-        "salary": 80000,
+        "salary": 85000,
         "image": "https://thefinancialexpress.com.bd/uploads/1532111988.jpg"
+    },
+    {
+        "id": 115,
+        "name": "George R. R. Martin",
+        "role": "Special Appearance",
+        "age": 73,
+        "country": "USA",
+        "salary": 10000,
+        "image": "https://www.cnet.com/a/img/moSndeplk_cL_JvDj5-6eRTGHyI=/940x0/2019/05/14/ee80f152-2110-4083-86d5-950603a9f201/gettyimages-1035092140.jpg"
     }
 ]
