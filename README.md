@@ -1,5 +1,5 @@
 # International Thriller Conference 2021
-[Link to the Conference Official Website](https://world-thriller-authors-conference-samimeadad.netlify.app/)
+[Link to the Conference Official Website](https://international-thriller-conference-samimeadad.netlify.app/)
 
 1. The International Thriller Conference (ITC) is held in December each year. For the past 50 years the ITC is one of the most reputed, thrilling and exciting events in world literature industry.
 
