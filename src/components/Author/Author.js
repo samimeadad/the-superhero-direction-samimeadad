@@ -7,6 +7,7 @@ const Author = ( props ) => {
 
     return (
         <div className="card ps-3 m-2 border border-1 border-secondary bg-dark" style={ { maxWidth: "450px" } }>
+            <hr className="text-secondary" />
             <div div className="row" >
                 <div className="col-md-5">
                     <img style={ { height: '100px', width: '150px' } } src={ image } className="img-fluid rounded-start mt-4 mb-3 border border-1 border-secondary" alt="author_image" />

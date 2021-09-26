@@ -18,7 +18,7 @@ const Invite = ( props ) => {
             <h4 className="fw-bold text-info">Authors List:</h4>
             <ul>
                 {
-                    inviteList.map( invitee => <li className="fw-bold text-info">{ invitee.name }</li> )
+                    inviteList.map( invitee => <li className="fw-bold text-info">{ invitee.name }, { invitee.role }</li> )
                 }
             </ul>
         </div>
