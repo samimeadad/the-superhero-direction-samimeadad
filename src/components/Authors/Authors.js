@@ -18,9 +18,9 @@ const Authors = () => {
     }
 
     return (
-        <div className="row m-2">
+        <div className="row me-2">
             <div className="col-md-9">
-                <div className="row">
+                <div className="row g-3 mb-3">
                     {
                         authors.map( author => <Author
                             key={ author.id }
@@ -29,7 +29,7 @@ const Authors = () => {
                     }
                 </div>
             </div>
-            <div className="col-md-3 bg-dark mt-2 mb-2 pt-2 rounded-3 border border-secondary">
+            <div className="col-md-3 bg-dark mt-2 mb-3 pt-2 rounded-3 border border-secondary">
                 <Invite inviteList={ inviteList }></Invite>
             </div>
         </div>
