@@ -13,7 +13,7 @@ const Invite = ( props ) => {
             <h2 className="fw-bold text-info">Invitation Summary</h2>
             <hr className="text-secondary" />
             <h4 className="fw-bold text-info">Invited Authors: <span className="text-warning">{ inviteList.length }</span> </h4>
-            <h4 className="fw-bold text-info">Total Fees: <span className="text-warning">{ totalCost }</span> </h4>
+            <h4 className="fw-bold text-info">Total Fees: <span className="text-warning">${ totalCost }</span> </h4>
             <hr className="text-secondary" />
             <h4 className="fw-bold text-info">Authors List:</h4>
             <ul>
