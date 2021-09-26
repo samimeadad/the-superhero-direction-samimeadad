@@ -5,7 +5,7 @@ import { faBookReader } from '@fortawesome/free-solid-svg-icons'
 const Author = ( props ) => {
     const { name, role, country, age, salary, image } = props.author;
     return (
-        <div className="card ps-3 m-2 bg-dark" style={ { maxWidth: "450px" } }>
+        <div className="card ps-3 m-2 border border-1 border-secondary bg-dark" style={ { maxWidth: "450px" } }>
             <div div className="row" >
                 <div className="col-md-5">
                     <img style={ { height: '100px', width: '150px' } } src={ image } className="img-fluid rounded-start mt-4 mb-3 border border-1 border-secondary" alt="author_image" />
