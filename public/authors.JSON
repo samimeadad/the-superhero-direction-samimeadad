@@ -2,10 +2,10 @@
     {
         "id": 101,
         "name": "Sir Aurther Conan Doyal",
-        "role": "Chairman",
+        "role": "Honorary Guest",
         "age": 68,
         "country": "England",
-        "salary": 75000,
+        "salary": 90000,
         "image": "https://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/055/55231-1.JPG"
     },
     {
@@ -109,12 +109,12 @@
     },
     {
         "id": 113,
-        "name": "Sharadindu Bandyopadhyay",
-        "role": "Chief Guest",
-        "age": 78,
-        "country": "India",
-        "salary": 80000,
-        "image": "https://assets.telegraphindia.com/abp/2018/11/17/1606349212_5fbef19cc94e2_sharadindu-bandyopadhyay.jpg"
+        "name": "James Patterson",
+        "role": "Chairman",
+        "age": 72,
+        "country": "USA",
+        "salary": 75000,
+        "image": "https://www.hachettebookgroup.com/wp-content/uploads/2019/02/james-writing.jpg"
     },
     {
         "id": 114,
@@ -131,7 +131,7 @@
         "role": "Special Appearance",
         "age": 73,
         "country": "USA",
-        "salary": 50000,
+        "salary": 80000,
         "image": "https://www.cnet.com/a/img/moSndeplk_cL_JvDj5-6eRTGHyI=/940x0/2019/05/14/ee80f152-2110-4083-86d5-950603a9f201/gettyimages-1035092140.jpg"
     }
 ]
