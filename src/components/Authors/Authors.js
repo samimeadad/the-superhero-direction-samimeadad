@@ -19,11 +19,20 @@ const Authors = () => {
 
     //Event handlers for Invite Button which is in the child component
     const handleInviteList = author => {
-        const newInviteList = [ ...inviteList, author ];
-        setInviteList( newInviteList );
+        //condition applied for preventing duplicate invitation to the same author
+        if ( inviteList.includes( author ) ) {
+            return;
+        }
+        //if the author is not invited yet, he or she will be added to the invited list
+        else {
+            const newInviteList = [ ...inviteList, author ];
+            setInviteList( newInviteList );
+        }
+
+
     }
 
-    //Return the JSX to represent the Author Info Cards and the Invitation section on the right side on the UI
+    //Return the JSX to represent the Author Info Cards and the Invitation section on the right side of the UI
     return (
         //the parent div
         <div className="row me-2">
