@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookReader } from '@fortawesome/free-solid-svg-icons'
 
 const Author = ( props ) => {
-    const { name, role, country, age, salary, image } = props.author;
+    //Destructuring of the properties of the author object got from the parent component Authors
+    const { name, role, country, age, salary, image } = props.author || {};
 
+    //Presentation of the individual author card on the UI
     return (
         <div className="col-md-4 mb-2">
             <div className="card ps-3 pe-2 m-2 border border-1 border-secondary bg-dark h-100">
@@ -12,6 +14,7 @@ const Author = ( props ) => {
                 <div div className="row" >
                     <div className="col-md-5">
                         <img style={ { height: '100px', width: '150px' } } src={ image } className="img-fluid rounded-start mt-4 mb-3 border border-1 border-secondary" alt="author_image" />
+                        {/* Invite button onClick function call and fontawesome icon add */ }
                         <button onClick={ () => props.handleInviteList( props.author ) } className="btn btn-info text-dark ms-4 mt-4"><FontAwesomeIcon icon={ faBookReader } /> Invite</button>
                     </div>
                     <div className="col-md-7">

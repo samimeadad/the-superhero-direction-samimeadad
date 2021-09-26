@@ -1,13 +1,17 @@
 import React from 'react';
 
+//Component for the Invitation information on the right panel
 const Invite = ( props ) => {
+
     const { inviteList } = props || {};
 
+    //Calculation of the total cost/fee/salary
     let totalCost = 0;
     for ( const guest of inviteList ) {
         totalCost = totalCost + guest.salary;
     }
 
+    //Presentation of the information on the UI
     return (
         <div className="ps-3">
             <h2 className="fw-bold text-info">Invitation Summary</h2>
