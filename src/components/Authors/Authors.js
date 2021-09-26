@@ -15,7 +15,9 @@ const Authors = () => {
             <div className="col-md-9">
                 <div className="row">
                     {
-                        authors.map( author => <Author key={ author.id } author={ author }></Author> )
+                        authors.map( author => <Author
+                            key={ author.id }
+                            author={ author }></Author> )
                     }
                 </div>
             </div>
