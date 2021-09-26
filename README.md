@@ -7,6 +7,4 @@
 
 3. In 3 days of total program readers can meet their favorite authors and get autographs in person on their favorite books.
 
-4. It is our great honor to organize the ITC 2021 right here in Bangladesh. Please visit our site as per the below link for more details. Thank you.
-
-[Link to the Conference Website](https://world-thriller-authors-conference-samimeadad.netlify.app/)
+4. It is our great honor to organize the ITC 2021 right here in Bangladesh. Please visit our site as per the above link for more details. Thank you.~
